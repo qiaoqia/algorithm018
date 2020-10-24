@@ -1,0 +1,41 @@
+        Deque<String> deque = new LinkedList<String>();
+
+        //双端队列头部添加元素
+        deque.addFirst("a");
+        deque.addFirst("b");
+        deque.addFirst("c");
+        deque.addLast("66666");
+        deque.addFirst("d");
+        System.out.println(" addFirst() -->"+deque);
+
+        System.out.println("===================================");
+        //双端队列尾部添加元素
+        deque.addLast("1");
+        deque.addLast("2");
+        deque.addLast("3");
+        deque.addLast("4");
+        System.out.println("  addLast() -->"+deque);
+
+        System.out.println("===================================");
+        //删除头部
+        String s = deque.removeFirst();
+        System.out.println(s);
+        System.out.println(" removeFirst()-->"+deque);
+
+        //查看元素
+        String first = deque.getFirst();
+        System.out.println(first);
+        System.out.println(" getFirst()-->"+deque);
+
+        System.out.println("===================================");
+        //删除尾部
+        deque.removeLast();
+        System.out.println(" removeLast() -->"+deque);
+        //查看元素
+        deque.getLast();
+        System.out.println(" getLast() -->"+deque);
+		
+		
+		
+======================================================================================================
+
